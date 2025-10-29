@@ -1,4 +1,5 @@
 # astro-php-ssr
+[![npm version](https://badge.fury.io/js/astro-php-ssr.svg)](https://www.npmjs.com/package/astro-php-ssr)
 Serve PHP under a mount path and allow the PHP dir in Astro
 
 # astro-php-ssr
