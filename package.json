@@ -1,0 +1,42 @@
+{
+  "name": "astro-php-ssr",
+  "version": "0.1.0",
+  "description": "Run .php routes inside Astro SSR via php-cgi (or php fallback).",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "types",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "astro",
+    "php",
+    "ssr",
+    "middleware",
+    "php-cgi"
+  ],
+  "peerDependencies": {
+    "astro": ">=4 <6"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Gabriel N. Onike",
+  "license": "MIT",
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielOnike/astro-php-ssr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielOnike/astro-php-ssr/issues"
+  },
+  "homepage": "https://github.com/GabrielOnike/astro-php-ssr#readme"
+}
