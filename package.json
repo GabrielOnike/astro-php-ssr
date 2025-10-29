@@ -1,6 +1,6 @@
 {
   "name": "astro-php-ssr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run .php routes inside Astro SSR via php-cgi (or php fallback).",
   "type": "module",
   "main": "src/index.mjs",
